@@ -31,5 +31,5 @@ springdoc:
 # External services
 services:
     competency:
-        url: ${COMPETENCY_SERVICE_URL:http://localhost:8084/common/api/v1/competencies}
+        url: ${COMPETENCY_SERVICE_URL:https://vg-ms-competency-production-b8dc.up.railway.app/common/api/v1/competencies}
 
